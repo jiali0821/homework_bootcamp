@@ -1,0 +1,42 @@
+.background {
+    background-color:white;
+    margin-left: 50px;
+}
+
+
+.navbar {
+    padding: 5px;
+    background: white;
+  }
+
+
+  .navbar li {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 3px;
+  }
+
+  .navbar li a {
+    /* color: #000; */
+    text-decoration: none;
+  } 
+
+  .header {
+      padding: 10px;
+      background-color: white;
+      color: rgb(50, 163, 50);
+      font-family: "Helvetica";
+      
+  }
+
+  .pics p {
+    /* text-align: left; */
+    margin-left: 50px;
+    color:  rgb(50, 163, 50);
+  }
+
+

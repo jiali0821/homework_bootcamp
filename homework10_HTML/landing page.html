@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 10</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body class = "background">
+
+    <div class = "container">
+
+        <nav class = "navbar">
+        <div class = "row">
+            <div class="col-md-12">
+            <ul>
+                <li><a class="btn btn-success" href="landing page.html" role="button">Latitude</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Max Temprature</a></li>
+                        <li><a href="humidity.html">Humidity</a></li>
+                        <li><a href="#">Cloudiness</a></li>
+                        <li><a href="#">Wind Speed</a></li>
+                    </ul>
+                </li>
+                <li><a href="comparison.html" target = "_blank">Comparison</a></li>
+                <li><a href="#">Data</a></li>
+
+            </ul>
+            </div>
+        </div>
+        </nav>
+
+        <!-- row 1 -->
+        <div class="row">
+            <div class="col-md-7">
+            <header class="header"><h3>Summary: Latitude vs X</h3></header>
+            <hr>
+            
+
+            <article>
+                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
+                To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset
+                on over 500 cities.
+            
+                <img src="cloud.png" alt="Smiley face" style="float:left;width:400px;height:300px;">
+
+                </p>
+                <p>After assembling the dataset, we used Matplotlib to plot various graphs to see the trends.</p>
+            </article>
+            </div>
+
+            <div class="col-md-5"></div>
+            <img src = "comparison.png" alt = "compare" height="400" width="300">
+
+        </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
